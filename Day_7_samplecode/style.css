@@ -1,0 +1,145 @@
+#div1{
+	width: 100px;
+	height: 100px;
+	background: red;
+	transition: width 1s;
+	transition-timing-function: linear;
+	margin-bottom: 20px;
+}
+
+#div1:hover{
+	width: 300px;
+}
+
+#div2{
+	width: 100px;
+	height: 100px;
+	background: pink;
+	transition: width 1s;
+	transition-timing-function: ease;
+	margin-bottom: 20px;
+}
+
+#div2:hover{
+	width: 300px;
+}
+
+#div3{
+	width: 100px;
+	height: 100px;
+	background: blue;
+	transition: width 1s;
+	transition-timing-function: ease-in;
+	margin-bottom: 20px;
+}
+
+#div3:hover{
+	width: 300px;
+}
+
+#div4{
+	width: 100px;
+	height: 100px;
+	background: purple;
+	transition: width 1s;
+	transition-timing-function: ease-out;
+	margin-bottom: 20px;
+}
+
+#div4:hover{
+	width: 300px;
+}
+
+#div5{
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	transition: width 1s;
+	transition-timing-function: ease-in-out;
+	margin-bottom: 20px;
+}
+
+#div5:hover{
+	width: 300px;
+}
+
+#translate{
+	width: 300px;
+	height: 90px;
+	background-color: pink;
+	border: 9px solid black;
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+
+#translate:hover{
+	transform: translate(30px);
+}
+
+#rotate{
+	width: 300px;
+	height: 90px;
+	background-color: red;
+	border: 9px solid black;
+	margin-bottom: 120px;
+}
+
+#rotate:hover{
+	transform: rotate(20deg);
+}
+
+#scale{
+	width: 300px;
+	height: 90px;
+	background-color: blue;
+	border: 9px solid black;
+	margin-bottom: 60px;
+}
+#scale:hover{
+	transform: scale(1,2);
+}
+
+#new {
+	width: 100px;
+	height:100px;
+	background: pink;
+	margin-bottom: 100px;
+	padding: 40px;
+	transition-duration: 1s;
+	transition: width 2s, height 1s, transform 2s;
+}
+
+#new:hover {
+	width: 400px;
+	height: 400px;
+	padding: 40px;
+	transform: matrix(1,-0.3,0,1,0,0);
+}
+
+@keyframes example{
+	0%{background-color:red;left:0px;top: 0px;}
+	25%{background-color:yellow; left:200px; top:0px;
+         transform: rotate(90deg);}
+    50%{background-color:blue; left:200px; top:200px;
+         transform: rotate(180deg);}
+    75% {background-color:green; left:0px; top:200px;
+         transform: rotate(270deg);}
+    100% {background-color:red; left:0px; top:0px;
+         transform: rotate(360deg);}
+}
+
+#rect{
+	width: 100px;
+	height:100px;
+	background-color: purple;
+	position: relative; 
+	margin-bottom: 100px;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+

@@ -1,0 +1,119 @@
+/* Set the background color of body to tan */
+
+html{
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+body {
+  background-color: tan;
+/*  width: 100vw;
+	height: 100vh;*/
+
+	
+}
+
+/*comment this out */
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+/*comment this out */
+
+
+/* body {
+  margin: 40px;
+} */
+
+.wrapper {
+  display: grid;
+  /*grid-template-columns: 100px 100px 100px;*/
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 30px;
+}
+
+.box {
+  background-color: gray;
+  color: white;
+/*  border-radius: 5px;*/
+  padding: 20px;
+  font-size: 100%;
+}
+
+.a {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+/*   .a {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}*/
+
+  .b {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+
+/*  .b {
+		grid-column-start: 2;
+		grid-column-end: 3;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}*/
+  .c {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+/*
+  .c {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}*/
+  .d {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+
+  	/*.d {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}*/
+  .e {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  	/*.e {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 3;
+	}*/
+  .f {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+/*
+	.f {
+		grid-column-start: 3;
+		grid-column-end: 4;
+		grid-row-start: 1;
+		grid-row-end: 2;
+	}*/

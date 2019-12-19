@@ -1,0 +1,58 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+button {
+    background-color: black;
+    /*border: 2px solid white;*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+button:focus {
+  text-decoration: none;
+  outline:none;
+  box-shadow: none;
+}
+
+#button1 {
+	height : 1000px;
+	width: 100%; 
+	padding-top: 350px; 
+	position : relative;
+	display: inline-block;
+	text-align: center;
+}
+#button2 {
+	height : 1000px;
+	width: 100%; 
+	padding-top: 350px; 
+	position : relative;
+	display: inline-block;
+	text-align: center;
+}
+#button3 {
+	height : 1000px;
+	width: 100%; 
+	padding-top: 350px; 
+	position : relative;
+	display: inline-block;
+	text-align: center;
+}
+#button4 {
+	height : 1000px;
+	width: 100%; 
+	padding-top: 350px; 
+	position : relative;
+	display: inline-block;
+	text-align: center;
+}
